@@ -1,0 +1,27 @@
+.nav{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    background-color: #D9D9D9;;
+}
+
+.nav a{
+    width: 100px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+}
+.nav .active{
+    border: 3px solid #9B59B6;;
+    color: #9B59B6;
+}
